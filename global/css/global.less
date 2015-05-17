@@ -18,15 +18,9 @@ h2 {
 
 
 p {
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	line-height: 1.5em;
-}
-
-.container {
-	margin: 0 auto;
-	width: 600px;
-	padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
 .timeline_container {
@@ -35,23 +29,72 @@ p {
 	padding: 0px;
 }
 
-.headerContainer {
-    float:left;
+#titleContainer {
+
+    #headerContainer {
+        float:left;
+    }
+
+    #logoContainer {
+        float:right;
+    }
 }
 
-.logoContainer {
-    float:right;
+section#frontPage {
+
+    .make-row();
+    padding-top: 80px;
+
+    // Footer Compensation. On the website, this is changed dynamically via jQuery.
+    padding-bottom: 135px;
+
+    .videoContainer {
+        .make-xs-column(12);
+        .make-sm-column(8);
+        .make-sm-column-offset(2);
+
+	.video {
+	    .center-block;
+	}
+    }
+
+    #titleContainer {
+        .center-block;
+        max-width: @videoWidth;
+        min-width: @videoWidth;
+    }
+
+    .caption {
+        margin-top: 10px;
+	margin-bottom: 10px;
+	.center-block;
+	max-width: @videoWidth;
+	min-width: @videoWidth;
+    }
 }
 
-.signupForm {
-    margin-top: 20px;
-    margin-bottom: 30px;
+header {
+    .navbar;
+    .navbar-default;
+    .navbar-fixed-top;
 }
 
-body {
-    padding: 60px;
-}
+footer {
+    .navbar;
+    .navbar-default;
+    .navbar-fixed-bottom;
 
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    color: @state-success-text;
+    background-color:  @state-success-bg;
+
+    #signup {
+        .make-sm-column(9);
+	.make-sm-column-offset(2);
+    }
+}
 
 /* unvisited link */
 a:link {

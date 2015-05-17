@@ -1,44 +1,89 @@
 <html>
 <head>
+<meta content='text/html; charset=UTF-8' http-quiv='Content-Type' />
+<meta name="description" content="An Interactive Documentary" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
 <title>Jack and the Machine</title>
-<link href='http://fonts.googleapis.com/css?family=Lato:400, 400italic, 700' rel='stylesheet' type='text/css'>
-<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+<!-- ============= CSS ============ -->
+<!-- Bootstrap: compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- Bootstrap: Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-<link href='global/css/global.css' rel='stylesheet' type='text/css'>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link href='global/css/global.min.css' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Movie">
+
+    <div class="row">
+        <div class="headerContainer">
+	        <h1 itemprop="name">JACK and the MACHINE</h1>
+	        <h2 itemprop="description">An Interactive Documentary</h2>
+        </div>
+        <div class="logoContainer">
+	        <img src="global/img/Bee_small.png" />
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+
+    <div class="row">
+        <iframe src="//player.vimeo.com/video/74458487?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="595" height="446" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen itemprop="trailer"></iframe>
+    </div>
+
+    <div class="row">
+        <p class="col-xs-12" itemprop="description">Once known as #148445 within the Third Reich, Jack Tramiel would rise from the Nazi concentration camps and build the information age's great equalizer: the world's first &quot;computer for the masses, not the classes.&quot;</p>
+    </div>
 
 
-<div class="headerContainer">
-	<h1>JACK and the MACHINE</h1>
-	<h2>An Interactive Documentary</h2>
+    <div class="row">
+        <div class="signupForm col-xs-10 col-xs-offset-1">
+            <h3>
+                What to know more? Sign up here.
+            </h3>
+            <p>We won't send you a ton of eMails but this is an experience that will span months, culminating in a unique interactive experience.</p>
+            <form action="" method="post" class="form-horizontal">
+                <div class="form-group">
+                    <label for="fullName" class="col-sm-2">Name</label>
+                    <input type="text" id="fullName" class="col-sm-8" placeholder="firstname lastname" required />
+                </div>
+                <div class="form-group">
+                    <label for="emailAddr" class="col-sm-2">eMail</label>
+                    <input type="email" id="emailAddr" class="col-sm-8" placeholder="name@example.com" required />
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <button type="submit" class="btn btn-default">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="row">
+        <div class="col-xs-12">
+       	    <a href="mailto:schmudde@earthcircl.es"><i class="fa fa-envelope-square"></i></a>
+	        <a href="http://earthcircl.es" target="_blank"><i class="fa fa-home"></i></a>
+	        <a href="http://twitter.com/dschmudde" target="_blank"><i class="fa fa-twitter"></i></a>
+	        <a href="http://beyondthefra.me" target="_blank"><i class="fa fa-tumblr-square"></i></a>
+        </div>
+    </footer>
+
+
 </div>
-<div class="logoContainer">
-	<img src="global/img/Bee_small.png" />
-</div>
-<div style="clear:both;"></div>
-
-<iframe src="//player.vimeo.com/video/74458487?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="595" height="446" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>Once known as #148445 within the Third Reich, Jack Tramiel would rise from the Nazi concentration camps and build the information age's great equalizer: the world's first "computer for the masses, not the classes."</p>
-
-<p>
-
-	<a href="mailto:schmudde@earthcircl.es"><i class="fa fa-envelope-square"></i></a>
-	<a href="http://earthcircl.es" target="_blank"><i class="fa fa-home"></i></a>
-	<a href="http://twitter.com/dschmudde" target="_blank"><i class="fa fa-twitter"></i></a>
-	<a href="http://beyondthefra.me" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	
-</p>
 
 
-
-
-</div>
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Lato:400, 400italic, 700' rel='stylesheet' type='text/css'>
 
 </body>
 </html>

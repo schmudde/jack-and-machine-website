@@ -43,29 +43,30 @@
         <div id="signup">
 	    <span><strong>Want to know more? Sign up!</strong></span>
             <p>We won't send you a ton of eMails but this is an experience that will span months, culminating in a unique interactive experience.</p>
-			<form action="//earthcircl.us6.list-manage.com/subscribe/post?u=16c74b57c19608ab52cc1f418&amp;id=37d2c184d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
-            <form action="" method="post" class="form-inline">
+            <form action="global/mail/mailsend.php" method="POST" class="form-inline" id="mc-embedded-subscribe-form">
                 <div class="form-group mc-field-group">
-                    <label class="sr-only" for="mce-NAME">First &amp; Last Name</label>
-                    <input type="text" class="form-control" id="mce-NAME" placeholder="Your First & Last Name" />
+                    <label class="sr-only" for="FNAME">First Name</label>
+                    <input type="text" class="form-control" name="fname" placeholder="First Name" value="" />
+                </div>
+                <div class="form-group mc-field-group">
+                    <label class="sr-only" for="LNAME">Last Name</label>
+                    <input type="text" class="form-control" name="lname" placeholder="Last Name" value="" />
                 </div>
                 <div class="form-group mc-field-group">
                     <label class="sr-only" for="mce-EMAIL">eMail</label>
-                    <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your eMail address" required />
+                    <input type="email" name="email" class="form-control" id="email" placeholder="eMail address" value="" required />
                 </div>
 
-
-	<span id="mce-responses">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</span>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-<div style="position: absolute; left: -5000px;"><input type="text" name="b_16c74b57c19608ab52cc1f418_37d2c184d6" tabindex="-1" value=""></div>
-
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
-                        
-                <!-- <button type="submit" class="btn btn-success">Sign Up</button> -->
+                <button type="submit" class="btn btn-success">Subscribe</button>
             </form>
+        </div>
+        <div id="thankyou">
+	    <span><strong>Thank You!</strong></span>
+            <p>We're sending you a confirmation eMail right now, please check your inbox. We look forward to sharing more with you in the future. Also, please spread the word. We think this is an important story with relevant themes.</p>
+        </div>
+        <div id="error">
+	    <span><strong>Oops!</strong></span>
+            <p>Something went wrong. Please refresh your browser and try again.</p>
         </div>
     </div>
 </footer>
@@ -80,15 +81,16 @@
         // A fallback if the CDN is down
 	if (typeof jQuery == 'undefined') {
     	document.write(unescape("%3Cscript src='global/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
-		console.log ("GoogleAPI Error");
+		console.log ("GoogleAPI Error, local store loaded");
 	}
 </script>
 
-<!-- Bootstrap JS -->
-<script src="global/js/bootstrap.min.js"></script>
-
 <!-- Personal Global JS -->
-<script src="global/js/global.js"></script>
+<script type="text/javascript" src="global/js/mailingList.js"></script>
+<script type="text/javascript" src="global/js/global.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="global/js/bootstrap.min.js"></script>
 
 </body>
 </html>

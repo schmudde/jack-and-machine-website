@@ -5,16 +5,26 @@
 <?php
 
     require __DIR__ . '/../../bin/vendor/autoload.php';
-    use Mailchimp\Mailchimp;
+    use Drewm\MailChimp;
 
-    $mc = new Mailchimp('e380a781106d4a1f1905b2e412a7103c-us6');
+    $MailChimp = new MailChimp('e380a781106d4a1f1905b2e412a7103c-us6');
+    print_r ($MailChimp->call('lists/list', 
+                               array('filters' => array('list_id' => '37d2c184d6'))
+             ));
 
-    $lists = $mc->request('lists', [
-        'fields' => 'lists.id, lists.name, lists.stats.member_count',
-        'count' => 30
-    ]);
+    echo "<br /><br/>";
 
-    echo "test";
+    $result = $MailChimp->call('lists/subscribe', array(
+                   'id' => '37d2c184d6',
+                 'email' => array('email'=>'nospam@nospam.com'),
+                 'merge_vars' => array('FNAME'=>'Davy', 'LNAME'=>'Jones'),
+                 'double_optin' => false,
+                 'update_existing' => true,
+                 'replace_interests' => false,
+                 'send_welcome' => false,
+                 ));
+   echo "<br /><br/>";
+   print_r($result);
 
 ?>
 

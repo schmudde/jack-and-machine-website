@@ -40,6 +40,31 @@ p {
     }
 }
 
+section.contentPage {
+
+    .make-row();
+    padding-top: 80px;
+
+    // Footer Compensation. On the website, this is changed dynamically via jQuery.
+    padding-bottom: 135px;
+
+    #genericContainer {
+        .make-xs-column(12);
+
+        .content {
+            margin-top: 10px;
+      	    margin-bottom: 10px;
+        }
+    }
+}
+
+.briefMessage {
+    .center-block;
+    max-width: @videoWidth;
+    min-width: @videoWidth;
+}
+
+
 section#frontPage {
 
     .make-row();
@@ -58,18 +83,9 @@ section#frontPage {
 	}
     }
 
-    #titleContainer {
-        .center-block;
-        max-width: @videoWidth;
-        min-width: @videoWidth;
-    }
-
     .caption {
         margin-top: 10px;
 	margin-bottom: 10px;
-	.center-block;
-	max-width: @videoWidth;
-	min-width: @videoWidth;
     }
 }
 

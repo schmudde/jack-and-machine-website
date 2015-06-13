@@ -1,7 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta content='text/html; charset=UTF-8' http-quiv='Content-Type' />
-
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="refresh" content="8;URL=//www.jackandthemachine.com">
 <title>Jack and the Machine: Subscription Thank You</title>
 
 <!-- ============= CSS ============ -->
@@ -40,25 +42,25 @@
 
 <div class="container" itemscope itemtype="http://schema.org/Movie">
 
-    <section id="frontPage">
-            <div class="videoContainer">
-	        <div id="titleContainer">
-                    <div id="headerContainer">
-	                <h1 itemprop="name">JACK and the MACHINE</h1>
-			<h2 itemprop="description">An Interactive Documentary</h2>
-                    </div>
-		    <div id="logoContainer">
-	                <img src="/global/img/Bee_small.png" />
-		    </div>
-		</div>
+    <section class="contentPage">
+        <div id="genericContainer">
+            <div id="titleContainer" class="briefMessage">
+                <div id="headerContainer">
+                    <h1 itemprop="name">JACK and the MACHINE</h1>
+		    <h2 itemprop="description">An Interactive Documentary</h2>
+                </div>
+         	<div id="logoContainer">
+	            <img src="/global/img/Bee_small.png" />
+	        </div>
+	    </div>
 
-		<div class="clearfix"></div>
+	    <div class="clearfix"></div>
 
-		<div>
-         	    <span><strong>Thank You!</strong></span>
-                    <p>We're sending you a confirmation eMail right now, please check your inbox. We look forward to sharing more with you in the future. Also, please spread the word. We think this is an important story with relevant themes.</p>
-		</div>
-    	    </div>
+	    <div class="content briefMessage">
+                <span><strong>Thank You!</strong></span>
+                <p>We're sending you a confirmation eMail right now, please check your inbox. We look forward to sharing more with you in the future. Also, please spread the word. We think this is an important story with relevant themes.</p>
+  	    </div>
+        </div>
     </section>
 
 </div>

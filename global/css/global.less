@@ -30,7 +30,6 @@ p {
 }
 
 #titleContainer {
-
     #headerContainer {
         float:left;
     }
@@ -40,13 +39,23 @@ p {
     }
 }
 
+/** 
+ * For tablets, laptops, and PCs, add padding to the content. Because the footer is pinned,
+ * it can sit on top of the content and make it unreadable if the proper amount of padding
+ * is not added.
+ */
+@media (min-width: @screen-sm-min) {
+
+    .mainContent {
+       // Footer Compensation. On the website, this is changed dynamically via jQuery.
+       padding-bottom: 135px;
+    }
+}
+
 section.contentPage {
 
     .make-row();
     padding-top: 80px;
-
-    // Footer Compensation. On the website, this is changed dynamically via jQuery.
-    padding-bottom: 135px;
 
     #genericContainer {
         .make-xs-column(12);
@@ -64,19 +73,15 @@ section.contentPage {
     min-width: @videoWidth;
 }
 
-
 section#frontPage {
 
     .make-row();
     padding-top: 80px;
 
-    // Footer Compensation. On the website, this is changed dynamically via jQuery.
-    padding-bottom: 135px;
-
     .videoContainer {
         .make-xs-column(12);
-        .make-sm-column(8);
-        .make-sm-column-offset(2);
+        .make-md-column(8);
+        .make-md-column-offset(2);
 
 	.video {
 	    .center-block;
@@ -106,20 +111,13 @@ footer {
     color: @state-success-text;
     background-color:  @state-success-bg;
 
-    #signup {
-        .make-sm-column(9);
-	.make-sm-column-offset(2);
+    #signup, #thankyou, #error {
+        .make-xs-column(12);
+        .make-md-column(9);
+	.make-md-column-offset(2);
     }
 
-    #thankyou {
-        .make-sm-column(9);
-	.make-sm-column-offset(2);
-	display: none;
-    }
-
-    #error {
-        .make-sm-column(9);
-	.make-sm-column-offset(2);
+    #thankyou, #error {
 	display: none;
     }
 }

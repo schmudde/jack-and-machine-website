@@ -1,6 +1,5 @@
 {
     "require": {
-	"drewm/mailchimp-api": "dev-master",
-        "pacely/mailchimp-apiv3": "dev-master"
+	"drewm/mailchimp-api": "dev-master"
     }
 }

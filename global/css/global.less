@@ -29,7 +29,18 @@ p {
 	padding: 0px;
 }
 
+
+.briefMessage {
+    .center-block;
+    @media (min-width: @screen-sm-min) {
+        width: @videoWidth;
+    }
+}
+
 #titleContainer {
+
+    .briefMessage;
+
     #headerContainer {
         float:left;
     }
@@ -59,38 +70,17 @@ section.contentPage {
 
     #genericContainer {
         .make-xs-column(12);
+        .make-md-column(8);
+        .make-md-column-offset(2);
 
         .content {
             margin-top: 10px;
       	    margin-bottom: 10px;
         }
-    }
-}
-
-.briefMessage {
-    .center-block;
-    max-width: @videoWidth;
-    min-width: @videoWidth;
-}
-
-section#frontPage {
-
-    .make-row();
-    padding-top: 80px;
-
-    .videoContainer {
-        .make-xs-column(12);
-        .make-md-column(8);
-        .make-md-column-offset(2);
 
 	.video {
 	    .center-block;
-	}
-    }
-
-    .caption {
-        margin-top: 10px;
-	margin-bottom: 10px;
+	} 
     }
 }
 

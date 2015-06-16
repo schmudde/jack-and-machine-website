@@ -42,16 +42,16 @@
 
 <div class="container" itemscope itemtype="http://schema.org/Movie">
 
-    <section class="contentPage">
-        <div id="genericContainer">
-            <div id="titleContainer" class="briefMessage">
-                <div id="headerContainer">
-                    <h1 itemprop="name">JACK and the MACHINE</h1>
-		    <h2 itemprop="description">An Interactive Documentary</h2>
-                </div>
-         	<div id="logoContainer">
-	            <img src="/global/img/Bee_small.png" />
-	        </div>
+    <section class="contentPage_row">
+        <div id="genericContainer_col">
+            <div id="titleContainer">
+		    <div id="logoContainer">
+	                <img src="/global/img/Bee_small.png" />
+		    </div>
+                    <div id="headerContainer">
+	                <h1 itemprop="name">JACK and the MACHINE</h1>
+			<h2 itemprop="description">An Interactive Documentary</h2>
+                    </div>
 	    </div>
 
 	    <div class="clearfix"></div>

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Jack and the Machine: A Brief History of Machine Personalities</title>
+<meta content='text/html; charset=UTF-8' http-quiv='Content-Type' />
 <meta name="description" content="An Interactive Documentary" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+<title>Jack and the Machine: A Brief History of Machine Personalities</title>
 
 <!-- ============= CSS ============ -->
 <!-- FontAwesome -->
@@ -15,20 +17,30 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="mainContent">
-        <div id="titleContainer">
-            <div id="headerContainer">
-	        <h1 itemprop="name">JACK and the MACHINE</h1>
-		<h2 itemprop="description">Part I: The War Years</h2>
-            </div>
-	    <div id="logoContainer">
-	        <img src="/global/img/Bee_small.png" />
-	    </div>
-	</div>
-	<div style="clear:both;"></div>
+<div class="container" itemscope itemtype="http://schema.org/Article">
 
-    </div>
+    <section id="frontPage" class="contentPage_row mainContent">
+            <div id="genericContainer_col">
+	        <div id="titleContainer">
+		    <div id="logoContainer">
+	                <img src="/global/img/Bee_small.png" />
+		    </div>
+                    <div id="headerContainer">
+	                <h1 itemprop="producer">JACK and the MACHINE</h1>
+			<h2 itemprop="name">A Brief History of Machine Personalities</h2>
+                    </div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<article itemprop="articleBody">
+		    <p>Content Goes Here</p>
+		</article>
+
+    	    </div>
+    </section>
+
+</div>
 
 
 <footer id="frontPageFooter">
@@ -64,8 +76,6 @@
     </div>
 </footer>
 
-</div>
-
 
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Lato:400, 400italic, 700' rel='stylesheet' type='text/css'>
@@ -75,7 +85,7 @@
 <script type="text/javascript">
         // A fallback if the CDN is down
 	if (typeof jQuery == 'undefined') {
-    	document.write(unescape("%3Cscript src='global/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+    	document.write(unescape("%3Cscript src='/global/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
 		console.log ("GoogleAPI Error, local store loaded");
 	}
 </script>

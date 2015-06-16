@@ -26,7 +26,7 @@ p {
 .timeline_container {
 	margin: 0 auto;
 	width: 1200px;
-	padding: 0px;
+	padding: 40px 0px 0px 0px;
 }
 
 
@@ -42,11 +42,22 @@ p {
     .briefMessage;
 
     #headerContainer {
-        float:left;
+        @media (min-width: @screen-sm-min) {
+            float:left;
+        }
+        @media (max-width: @screen-sm-min) {
+            .text-center;
+        }
     }
 
     #logoContainer {
-        float:right;
+        @media (min-width: @screen-sm-min) {
+            float:right;
+        }
+        @media (max-width: @screen-sm-min) {
+            .text-center;
+	    padding-bottom: 12px;
+        }
     }
 }
 
@@ -63,12 +74,12 @@ p {
     }
 }
 
-section.contentPage {
+section.contentPage_row {
 
     .make-row();
     padding-top: 80px;
 
-    #genericContainer {
+    #genericContainer_col {
         .make-xs-column(12);
         .make-md-column(8);
         .make-md-column-offset(2);

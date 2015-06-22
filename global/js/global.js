@@ -18,3 +18,25 @@ var screen_lg_min = 1200;
     $(window).on("resize", contentHeightResizer);
     
 })();
+
+
+// Social Media Shares
+
+$('.popupShare').click(function (event) {
+
+    var width = 575,
+        height = 400,
+        left = ($(window).width() - width) / 2,
+        top = ($(window).height() - height) / 2,
+        url = this.href,
+        opts = 'status=1' +
+	       ', width=' + width +
+	       ', height=' + width +
+	       ', top=' + top +
+	       ', left=' + left;
+
+    event.preventDefault();
+    window.open(url, 'popupWindow', opts);
+
+    return false;
+});

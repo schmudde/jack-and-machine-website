@@ -33,7 +33,7 @@
                    'id' => '37d2c184d6',
                  'email' => array('email'=>$userFormData["email"]),
                  'merge_vars' => array('FNAME'=>$userFormData["fname"], 'LNAME'=>$userFormData["lname"]),
-                 'double_optin' => true,
+                 'double_optin' => false,
                  'update_existing' => true,
                  'replace_interests' => false,
                  'send_welcome' => false,

@@ -1,3 +1,6 @@
+/**
+ * Note: This JavaScipt file relies on JQuery and must be invoked after loading said library.
+ */
 
 // Bootstrap defaults
 var screen_sm_min = 768;

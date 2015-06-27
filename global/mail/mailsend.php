@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta content='text/html; charset=UTF-8' http-quiv='Content-Type' />
+<meta content='text/html; charset=UTF-8' />
 <meta NAME="robots" CONTENT="noindex">
 <meta http-equiv="refresh" content="8;URL=//www.jackandthemachine.com">
 <title>Jack and the Machine: Subscription Thank You</title>
@@ -58,7 +58,16 @@
 
 	    <div class="content briefMessage">
                 <span><strong>Thank You!</strong></span>
-                <p>We're sending you a confirmation eMail right now, please check your inbox. We look forward to sharing more with you in the future. Also, please spread the word. We think this is an important story with relevant themes.</p>
+            <p>We look forward to sharing more with you soon! Also, please spread the word: &nbsp;
+                <span class="socialIcons">
+	            <a href="https://twitter.com/intent/tweet?text=&quot;Jack%20and%20the%20Machine&quot;%20-%20The%20startling%20true%20story%20of%20how%20Jack%20Tramiel&#39;s%20&quot;computers%20for%20the%20masses&quot;%20changed%20the%20world.&url=http%3A%2F%2Fwww.jackandthemachine.com&related=dschmudde%3ADirector%20of%20&quot;Jack%20%26%20the%20Machine.&quot;,jackandmachine%3AThe%20official%20Twitter%20presence%20of%20&quot;Jack%20and%20the%20Machine.&quot;" target="_blank" class="popupShare"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.jackandthemachine.com&title=Jack%20and%20the%20Machine%20&summary=&quot;Jack%20and%20the%20Machine&quot;%20-%20The%20startling%20true%20story%20of%20how%20Jack%20Tramiel&#39;s%20&quot;computers%20for%20the%20masses&quot;%20changed%20the%20world.%20http%3A%2F%2Fwww.jackandthemachine.com&source=http%3A%2F%2Fwww.jackandthemachine.com" target="_blank" class="popupShare"><i class="fa fa-linkedin-square fa-lg"></i></a>
+            	    <a href="https://www.facebook.com/dialog/feed?app_id=145634995501895&display=popup&caption=&quot;Jack%20and%20the%20Machine&quot;%20-%20The%20startling%20true%20story%20of%20how%20Jack%20Tramiel&#39;s%20&quot;computers%20for%20the%20masses&quot;%20changed%20the%20world.%20http%3A%2F%2Fwww.jackandthemachine.com&link=http%3A%2F%2Fwww.jackandthemachine.com&redirect_uri=https://developers.facebook.com/tools/explorer" target="_blank" class="popupShare"><i class="fa fa-facebook-square fa-lg"></i></a>
+
+                </span>
+            </p>
+
+                <!-- We're sending you a confirmation eMail right now, please check your inbox.-->
   	    </div>
         </div>
     </section>

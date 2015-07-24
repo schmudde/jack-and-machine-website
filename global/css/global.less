@@ -3,9 +3,14 @@ h1, h2 {
 	font-weight: 700;
 }
 
-h3 {
+h3, h4, blockquote {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+        color: @gray;
+}
+
+blockquote {
+    font-size: 14px;
 }
 
 h1 {
@@ -35,11 +40,46 @@ p {
 }
 
 
-.briefMessage {
+.briefMessage, .associatedContent {
     .center-block;
     @media (min-width: @screen-sm-min) {
         width: @videoWidth;
     }
+}
+
+.associatedContent {
+    border: 1px solid @state-success-bg;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px 20px 10px 20px;
+    margin-top: 20px;
+
+    p {
+        color: @gray;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: @state-success-text;        
+    }
+
+    img.insert {
+        margin-left: 25px;
+    }
+}
+
+.accordionHeader {
+    font-weight: normal;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+}
+
+.accordionHeader:hover {
+    text-decoration: none;
 }
 
 #titleContainer {
@@ -164,7 +204,7 @@ footer {
 
 /* unvisited link */
 a:link {
-color: red;
+    color: red;
 }
 
 /* visited link */
@@ -178,6 +218,7 @@ color: 660000;
 }
 
 /* selected link */
-a:active {
-color: ff6666;
+a:active, a:active, a:focus {
+    color: ff6666;
+    text-decoration: none;
 }

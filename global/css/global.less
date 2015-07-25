@@ -67,6 +67,15 @@ p {
     img.insert {
         margin-left: 25px;
     }
+
+    h4 small {
+        color: @brand-info;        
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	float: right;
+    }
 }
 
 .accordionHeader {
@@ -164,10 +173,13 @@ header {
     .navbar-fixed-top;
 }
 
-footer {
+footer#frontPageFooter {
     .navbar;
     .navbar-default;
-    .navbar-fixed-bottom;
+
+    @media (min-width: @screen-sm-min) {
+        .navbar-fixed-bottom;
+    }
 
     padding-top: 15px;
     padding-bottom: 10px;
@@ -194,27 +206,27 @@ footer {
 
 .socialIcons {
     a:link {
-        color: @brand-success;
+        color: @brand-primary;
     }
 
     a:hover {
-        color: darken(@brand-success, 5%);
+        color: darken(@brand-primary, 15%);
     }
 }
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: @brand-primary;
 }
 
 /* visited link */
 a:visited {
-color: #AAA;
+    color: lighten(@brand-primary, 23%);;
 }
 
 /* mouse over link */
 a:hover {
-color: 660000;
+    color: darken(@brand-primary, 15%);
 }
 
 /* selected link */

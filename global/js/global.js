@@ -43,3 +43,26 @@ $('.popupShare').click(function (event) {
 
     return false;
 });
+
+// Accordion menu options
+    $(function() {
+        var icons = {
+            header: "fa fa-caret-right",
+            activeHeader: "fa fa-caret-down"
+        };
+
+        $("#aboutJack").accordion({
+            icons: icons,
+            heightStyle: "content"
+        });
+
+        $("#aboutMachine").accordion({
+            icons: icons,
+            heightStyle: "content"
+        });        
+
+        $("#aboutUs").accordion({
+            icons: icons,
+            heightStyle: "content"
+        });         
+    });

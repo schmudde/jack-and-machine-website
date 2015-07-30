@@ -1,16 +1,15 @@
 h1, h2 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+    .fontHeavyMixin;
 }
 
 h3, h4, blockquote {
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-        color: @gray;
+    .fontLightMixin;
+    color: @gray;
 }
 
 blockquote {
     font-size: 14px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -28,8 +27,7 @@ h2 {
 
 
 p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    .fontLightMixin;
     line-height: 1.5em;
 }
 
@@ -48,7 +46,7 @@ p {
 }
 
 .associatedContent {
-    border: 1px solid @state-success-bg;
+    border: 1px solid @blueFG;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -61,34 +59,83 @@ p {
 
     h3 {
         font-size: 20px;
-        color: @state-success-text;        
+
+	margin-bottom: 13px;
+	border-bottom: 1px dotted @blueFG;
+        padding-bottom: 15px;
+
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left: 20px;
+    }
+
+    img.head {
+        .responsiveImgMixin;
     }
 
     img.insert {
-        margin-left: 25px;
+        @media (min-width: @screen-sm-min) {
+            margin-left: 25px;
+            .pull-right;
+	}
+	@media (max-width: @screen-sm-min) {
+            .responsiveImgMixin;
+        }
     }
 
-    h4 small {
-        color: @brand-info;        
+    h4.accordionHeader {
+        font-weight: normal;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+    h4.accordionHeader:hover {
+        text-decoration: underline;
+    }
+
+    h4.accordionHeader small {
+        color: @blueFG;        
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 	display: block;
 	float: right;
+
+        @media (max-width: @screen-xs) {
+            float: none;
+	    text-align: center;
+	    padding-top: 10px;
+        }
+    }
+
+    .lead {
+        font-size: 14px;
+	padding-bottom: 8px;
+	.text-center;
+	font-style: italic;
     }
 }
 
-.accordionHeader {
-    font-weight: normal;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: underline;
-    color: black;
+.accordionHeader + div {
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: @blueBG;
+    margin-bottom: 20px;
+
+    @media (min-width: @screen-xs) {
+        padding: 30px 40px 30px 40px;
+    }
+
+    @media (max-width: @screen-xs) {
+        padding: 20px;
+    }
 }
 
-.accordionHeader:hover {
-    text-decoration: none;
+.accordionHeader hr {
+    border-color: @blueFG;
 }
 
 #titleContainer {
@@ -184,8 +231,8 @@ footer#frontPageFooter {
     padding-top: 15px;
     padding-bottom: 10px;
 
-    color: @state-success-text;
-    background-color:  @state-success-bg;
+    color: @greenFG;
+    background-color: @greenBG;
 
     #signup, #thankyou, #error {
         .make-xs-column(12);
@@ -221,7 +268,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: lighten(@brand-primary, 23%);;
+    color: lighten(@brand-primary, 23%);
 }
 
 /* mouse over link */
@@ -233,4 +280,8 @@ a:hover {
 a:active, a:active, a:focus {
     color: ff6666;
     text-decoration: none;
+}
+
+.fa-caret-down, .fa-caret-right {
+    padding-right: 10px;
 }

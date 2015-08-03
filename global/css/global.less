@@ -46,7 +46,6 @@ p {
 }
 
 .associatedContent {
-    border: 1px solid @blueFG;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -61,7 +60,6 @@ p {
         font-size: 20px;
 
 	margin-bottom: 13px;
-	border-bottom: 1px dotted @blueFG;
         padding-bottom: 15px;
 
 	margin-left: -20px;
@@ -85,11 +83,11 @@ p {
 
     h4.accordionHeader {
         font-weight: normal;
+        color: @gray;
         outline: none;
         cursor: pointer;
         font-size: 16px;
         text-decoration: none;
-        color: black;
     }
 
     h4.accordionHeader:hover {
@@ -97,7 +95,6 @@ p {
     }
 
     h4.accordionHeader small {
-        color: @blueFG;        
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -119,10 +116,51 @@ p {
     }
 }
 
+// associatedContent specific IDs -
+
+    #machine {
+        border: 1px solid @greenFG;
+
+        h3, h4 small {
+            color: @greenFG;
+        }
+
+	h3 {
+            border-bottom: 1px dotted @greenFG;
+	}
+
+	hr {
+            border-color: @greenFG;
+        }
+
+	.accordionHeader + div {
+            background-color: @greenBG;
+	}
+    }
+
+    #jack, #us {
+        border: 1px solid @blueFG;
+
+        h3, h4 small {
+            color: @blueFG;
+        }
+
+	h3 {
+            border-bottom: 1px dotted @blueFG;
+	}
+
+	hr {
+            border-color: @blueFG;
+        }
+
+	.accordionHeader + div {
+            background-color: @blueBG;
+	}
+    }
+
 .accordionHeader + div {
     margin-left: -20px;
     margin-right: -20px;
-    background-color: @blueBG;
     margin-bottom: 20px;
 
     @media (min-width: @screen-xs) {
@@ -132,10 +170,6 @@ p {
     @media (max-width: @screen-xs) {
         padding: 20px;
     }
-}
-
-.accordionHeader hr {
-    border-color: @blueFG;
 }
 
 #titleContainer {

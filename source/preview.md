@@ -7,7 +7,7 @@ layout: default
 	        <div id="titleContainer">
 		    <div id="logoContainer">
 		        <a href="http://www.jackandthemachine.com" class="header">
-	                    <img src="/global/img/Bee_small.png" />
+	                    <img src="{{ site.url }}/global/img/Bee_small.png" />
 			</a>
 		    </div>
                     <div id="headerContainer">

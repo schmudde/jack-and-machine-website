@@ -1,5 +1,6 @@
 ---
 layout: default
+title: An Interactive Documentary
 ---
 
 <div class="container" itemscope itemtype="http://schema.org/Movie">

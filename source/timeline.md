@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Timeline - The War Years
 ---
 <div class="timeline_container">
     <div class="mainContent">

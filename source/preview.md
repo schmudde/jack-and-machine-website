@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Restricted Preview
 ---
 <div class="container" itemscope itemtype="http://schema.org/Movie">
     <section id="frontPage" class="contentPage_row mainContent">

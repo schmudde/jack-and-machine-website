@@ -5,14 +5,14 @@
 <meta name="description" content="An Interactive Documentary" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 
-<title>Jack and the Machine</title>
+<title>{{ site.title }}: {% block title %}{{ page.title }}{% endblock %}</title>
 
 <!-- ============= CSS ============ -->
 <!-- FontAwesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- Custom CSS -->
-<link href="{{ site.url }}/{{ theme_path('assets/css/main.min.css') }}" rel="stylesheet" type="text/css" /> 
+<link href="{{ site.url }}/{{ theme_path('assets/css/main.min.css') }}" rel="stylesheet" type="text/css" />
 
 <!-- Analytics -->
 <script type="text/javascript" src="{{ site.url }}/global/js/analytics1.js"></script>

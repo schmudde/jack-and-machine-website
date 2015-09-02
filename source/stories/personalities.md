@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Machine Personalities
 ---
 
 <div class="container" itemscope itemtype="http://schema.org/Article">

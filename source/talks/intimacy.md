@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Computers &amp; Intimacy
 ---
 <div class="container" itemscope itemtype="http://schema.org/Article">
 

@@ -1,0 +1,3 @@
+sculpin_theme:
+    theme: jackandthemachine/main
+    ignore: ["**/*~"]

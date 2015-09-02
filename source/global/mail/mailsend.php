@@ -19,7 +19,7 @@
 <?php
 
     /* Include the Composer autoload file, which includes the Drewm\MailChimp PHP wrapper */
-    require __DIR__ . '/../../vendor/autoload.php';
+    require __DIR__ . '/../../../vendor/autoload.php';
 
     /* Use the MailChimp PHP wrapper library and create a new session */
     use Drewm\MailChimp;

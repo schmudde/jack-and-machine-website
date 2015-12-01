@@ -59,29 +59,36 @@ p {
     h3 {
         font-size: 20px;
 
-	margin-bottom: 13px;
+	    margin-bottom: 13px;
         padding-bottom: 15px;
 
-	margin-left: -20px;
-	margin-right: -20px;
-	padding-left: 20px;
+	    margin-left: -20px;
+	    margin-right: -20px;
+	    padding-left: 20px;
     }
 
     img.head {
         .responsiveImgMixin;
     }
 
+    img {
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 35px;
+    }
+
     img.insert {
         @media (min-width: @screen-sm-min) {
             margin-left: 25px;
             .pull-right;
-	}
-	@media (max-width: @screen-sm-min) {
+	    }
+	    @media (max-width: @screen-sm-min) {
             .responsiveImgMixin;
         }
     }
 
-    h4.accordionHeader {
+    h4.accordionHeade, h4.accordionHeaderStatic {
         font-weight: normal;
         color: @gray;
         outline: none;
@@ -90,75 +97,91 @@ p {
         text-decoration: none;
     }
 
+    h4.accordionHeaderStatic {
+        cursor: inherit;
+    }
+
     h4.accordionHeader:hover {
         text-decoration: underline;
     }
 
     h4.accordionHeader small {
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	display: block;
-	float: right;
+
+	    font-weight: bold;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    display: block;
+	    float: right;
 
         @media (max-width: @screen-xs) {
             float: none;
-	    text-align: center;
-	    padding-top: 10px;
+	        text-align: center;
+	        padding-top: 10px;
         }
     }
 
     .lead {
         font-size: 14px;
-	padding-bottom: 8px;
-	.text-center;
-	font-style: italic;
+        padding-bottom: 8px;
+	    .text-center;
+	    font-style: italic;
     }
+
+    time {
+        float: right;
+        line-height: 2;
+        padding-right: 20px;
+    }
+
 }
 
 // associatedContent specific IDs -
 
-    #machine {
-        border: 1px solid @greenFG;
+#machine {
+    border: 1px solid @greenFG;
 
-        h3, h4 small {
-            color: @greenFG;
-        }
+    h3, h4 small {
+        color: @greenFG;
+    }
 
 	h3 {
-            border-bottom: 1px dotted @greenFG;
+        border-bottom: 1px dotted @greenFG;
 	}
 
 	hr {
-            border-color: @greenFG;
-        }
-
-	.accordionHeader + div {
-            background-color: @greenBG;
-	}
+        border-color: @greenFG;
     }
 
-    #jack, #us {
-        border: 1px solid @blueFG;
+	.accordionHeader + div,	.accordionHeaderStatic + div {
+        background-color: @greenBG;
+	}
 
-        h3, h4 small {
-            color: @blueFG;
-        }
+    a {
+        color: @blueFG;
+    }
+}
+
+#jack, #us {
+    border: 1px solid @blueFG;
+
+    h3, h4 small {
+        color: @blueFG;
+    }
 
 	h3 {
-            border-bottom: 1px dotted @blueFG;
+        border-bottom: 1px dotted @blueFG;
 	}
 
 	hr {
-            border-color: @blueFG;
-        }
-
-	.accordionHeader + div {
-            background-color: @blueBG;
-	}
+        border-color: @blueFG;
     }
 
-.accordionHeader + div {
+	.accordionHeader + div, .accordionHeaderStatic + div {
+        background-color: @blueBG;
+	}
+}
+
+.accordionHeader + div, .accordionHeaderStatic + div {
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 20px;
@@ -201,7 +224,7 @@ p {
     }
 }
 
-/** 
+/**
  * For tablets, laptops, and PCs, add padding to the content. Because the footer is pinned,
  * it can sit on top of the content and make it unreadable if the proper amount of padding
  * is not added.
@@ -217,7 +240,6 @@ p {
 section.contentPage_row {
 
     .make-row();
-    padding-top: 80px;
 
     #genericContainer_col {
         .make-xs-column(12);
@@ -231,7 +253,7 @@ section.contentPage_row {
 
 	.video {
 	    .center-block;
-	} 
+        }
     }
 }
 

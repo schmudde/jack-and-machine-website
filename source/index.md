@@ -15,7 +15,7 @@ title: An Interactive Documentary
 		</div>
                 <div id="headerContainer">
 		    <a href="http://www.jackandthemachine.com">
-	                <h1 itemprop="name">JACK and the MACHINE</h1>
+	                <h1 itemprop="name">JACK <small style="color:black;">and the</small> MACHINE</h1>
 		    </a>
 		    <h2 itemprop="description">An Interactive Documentary</h2>
                 </div>
@@ -30,12 +30,25 @@ title: An Interactive Documentary
 	    <p class="content briefMessage" itemprop="description">Once known as #148445 within the Third Reich, Jack Tramiel would rise from the Nazi concentration camps and build the information age's great equalizer: the world's first &quot;computer for the masses, not the classes.&quot;</p>
 	    <div class="clearfix"></div>
 
-            <div class="associatedContent" id="us">
-                <h3 class="associatedContentHeader">More About the Production</h3>
+        <div class="associatedContent" id="machine">
+            <h3 class="associatedContentHeader">The Latest
+              <time class="small">1 December 2015</time>
+            </h3>
+            <h4 class="accordionHeaderStatic"><em>The Computer Revolution Has Yet to Happen.</em></h4>
+            <div>
+                <img src="{{ site.url }}/global/img/essays/revolution/kayjobs.jpg" class="img-responsive" />
+                <p>Our latest effort, <a href="https://medium.com/@dschmudde/the-computer-revolution-has-yet-to-happen-f1dbf983d477#.4x8inir0o">The Computer Revolution Has Yet to Happen</a>, takes a prediction made by computer scientist Alan Kay in 1972, and examines what ad blocking on Apple's iOS devices has to do with the state of computing and interaction design.</p>
+            </div>
+        </div>
+
+	    <div class="clearfix"></div>
+
+        <div class="associatedContent" id="us">
+            <h3 class="associatedContentHeader">More About the Production</h3>
 	        <div id="aboutUs">
   		    <h4 class="accordionHeader">Early Buzz<hr /></h4>
 		    <div>
-		        <p><strong><a href="http://www.medienboard.de/WebObjects/Medienboard.woa/wa/CMSshow/3260603" target="_blank">Media Residency Program</a></strong>, Berlin (3 month incubation) • <strong>Tribeca Film Institute</strong>, NYC (selected hackathon partici- pant) • <strong><a href="http://pechakucha.de/berlin/pecha-kucha-sommer-spezial/" target="_blank">PechaKucha</a></strong>, Berlin (presentation) • <strong>Internet Society</strong>, NYC (presentation) • <strong><a href="http://motherboard.vice.com/read/this-documentary-explores-the-life-of-commodore-creator-jack-tramiel" target="_blank">Motherboard</a></strong>, London (interview) • <strong><a href="https://www.youtube.com/watch?v=CKMpTXchv9I" target="_blank">C-Base</a></strong>, Berlin (presentation)</p>
+		        <p><strong><a href="http://www.medienboard.de/WebObjects/Medienboard.woa/wa/CMSshow/3260603" target="_blank">Media Residency Program</a></strong>, Berlin (3 month incubation) • <strong>Tribeca Film Institute</strong>, NYC (selected hackathon partici- pant) • <strong><a href="http://pechakucha.de/berlin/player/?event=PK_39_1&position=03&presenter=D.%20Schm%C3%BCdde&presentation=Computers%20&%20Intimacy%20%E2%80%93%20The%20Story%20of%20the%20Largest%20Machines%20and%20the%20Smallest%20Details" target="_blank">PechaKucha</a></strong>, Berlin (presentation) • <strong>Internet Society</strong>, NYC (presentation) • <strong><a href="http://motherboard.vice.com/read/this-documentary-explores-the-life-of-commodore-creator-jack-tramiel" target="_blank">Motherboard</a></strong>, London (interview) • <strong><a href="https://www.youtube.com/watch?v=CKMpTXchv9I" target="_blank">C-Base</a></strong>, Berlin (presentation)</p>
 		    </div>
 		    <h4 class="accordionHeader">The Contributors</h4>
 		    <div>

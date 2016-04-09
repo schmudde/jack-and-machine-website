@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: timeline
 title: Timeline - The War Years
 ---
 <div class="timeline_container">

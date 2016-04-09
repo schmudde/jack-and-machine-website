@@ -5,26 +5,26 @@
 <meta name="description" content="An interactive documentary on the life and times of Commodore Founder and former CEO of Atari Corp., Jack Tramiel. This experience parallels Tramiel's rise from the Nazi concentration camps with the ascendency of the computer as an everyday tool of personal liberation." />
 <meta name="keywords" content="Jack Tramiel,Commodore Computer,retro computing,history of the pc,digital rights,40th anniversary of the pc,klassischer computer,IBM during World War II" />
 <meta name="author" content="D. Schmüdde" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="user-scalable=yes" />
 
-<title>Jack and the Machine: Restricted Preview</title>
+<title>{{ site.title }}: {% block title %}{{ page.title }}{% endblock %}</title>
 
 <!-- ============= CSS ============ -->
 <!-- FontAwesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- Custom CSS -->
-<link href="http://www.dev.jackandthemachine.com/output_dev/global/css/main.min.css" rel="stylesheet" type="text/css" />
-<!-- <link href="http://www.dev.jackandthemachine.com/output_dev/themes/jackandthemachine/main/assets/css/main.min.css" rel="stylesheet" type="text/css" /> -->
+<link href="{{ site.url }}/global/css/main.min.css" rel="stylesheet" type="text/css" />
+<!-- <link href="{{ site.url }}/{{ theme_path('assets/css/main.min.css') }}" rel="stylesheet" type="text/css" /> -->
 
 <!-- Analytics -->
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/analytics1.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/analytics1.js"></script>
 
 <!-- Open Graph -->
 <meta property="og:title" content="Jack and the Machine" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.jackandthemachine.com"/>
-<meta property="og:image" content="http://www.dev.jackandthemachine.com/output_dev/global/img/machineTemplateWithTitle.png" />
+<meta property="og:image" content="{{ site.url }}/global/img/machineTemplateWithTitle.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1375" />
 <meta property="og:image:height" content="1525" />
@@ -44,35 +44,7 @@
 </div>
 
 <div class="mainContent">
-  <div class="container" itemscope itemtype="http://schema.org/Movie">
-    <section id="frontPage" class="contentPage_row">
-            <div id="genericContainer_col">
-            <div id="titleContainer">
-            <div id="logoContainer">
-                <a href="http://www.jackandthemachine.com" class="header">
-                        <img src="http://www.dev.jackandthemachine.com/output_dev/global/img/Bee_small.png" />
-            </a>
-            </div>
-                    <div id="headerContainer">
-                <a href="http://www.jackandthemachine.com">
-                        <h1 itemprop="name">JACK and the MACHINE</h1>
-            </a>
-            <h2 itemprop="description">An Interactive Documentary</h2>
-                    </div>
-        </div>
-
-        <div class="clearfix"></div>
-        <div>
-                    <iframe src="//player.vimeo.com/video/132543941?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" class="video" width="595" height="446" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen itemprop="trailer"></iframe>
-        </div>
-<br />
-        <p class="content briefMessage" itemprop="description">Thank you for your interest in <em>Jack and the Machine</em>. This video is an early preview. It was created to give an idea of the project's current status and to provide an overview of the themes and storytelling devices we intend to use in the final experience.<br /><br />
-Please <strong>do not</strong> share this link. Please <strong>do</strong> head over to <a href="http://www.jackandthemachine.com">jackandthemachine.com</a> and share away. We appreciate your support.</p>
-
-        <div class="clearfix"></div>
-        </div>
-    </section>
-</div>
+  {% block content %}{% endblock %}
 
   <hr />
   <div class="container">
@@ -115,7 +87,7 @@ Please <strong>do not</strong> share this link. Please <strong>do</strong> head 
         <div id="signup">
 	    <span><strong>Want to know more? Sign up!</strong></span>
             <p>This story will span many months and multiple platforms, culminating in a unique interactive experience. Sign up to stay informed.</p>
-            <form action="http://www.dev.jackandthemachine.com/output_dev/global/mail/mailsend.php" method="POST" class="form-inline" id="mc-embedded-subscribe-form">
+            <form action="{{ site.url }}/global/mail/mailsend.php" method="POST" class="form-inline" id="mc-embedded-subscribe-form">
                 <div class="form-group mc-field-group">
                     <label class="sr-only" for="FNAME">First Name</label>
                     <input data-toggle="tooltip" type="text" class="form-control" name="fname" placeholder="First Name" value="" required />
@@ -158,7 +130,7 @@ Please <strong>do not</strong> share this link. Please <strong>do</strong> head 
 <script type="text/javascript">
         // A fallback if the CDN is down
 	if (typeof jQuery == 'undefined') {
-    	document.write(unescape("%3Cscript src='http://www.dev.jackandthemachine.com/output_dev/global/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+    	document.write(unescape("%3Cscript src='{{ site.url }}/global/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
 		console.log ("GoogleAPI Error, local store loaded");
 	}
 </script>
@@ -167,13 +139,13 @@ Please <strong>do not</strong> share this link. Please <strong>do</strong> head 
 <script type="text/javascript" src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 <!-- Personal Global JS -->
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/mailingList.js"></script>
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/global.js"></script>
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/fluidvids.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/mailingList.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/global.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/fluidvids.js"></script>
 
 <!-- Other JS -->
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://www.dev.jackandthemachine.com/output_dev/global/js/node_modules/parsleyjs/dist/parsley.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/global/js/node_modules/parsleyjs/dist/parsley.min.js"></script>
 
 
 </body>

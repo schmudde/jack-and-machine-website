@@ -4,7 +4,7 @@ title: Computers &amp; Intimacy
 ---
 <div class="container" itemscope itemtype="http://schema.org/Article">
 
-    <section id="frontPage" class="contentPage_row mainContent">
+    <section id="frontPage" class="contentPage_row">
             <div id="genericContainer_col">
 	        <div id="titleContainer">
 		    <div id="logoContainer">

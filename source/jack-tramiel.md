@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Partners and Timeline
+title: Jack Tramiel Timeline
 ---
 <style>
 </style>
 
 
 <div class="container">
-  <section class="contentPage_row mainContent">
+  <section class="contentPage_row">
     <div id="genericContainer_col">
       <div id="titleContainer">
         <div id="logoContainer">
@@ -68,7 +68,7 @@ title: Partners and Timeline
 
       <div class="thumbnail center-block">
           <a href="{{ site.url }}/global/img/timeline/ITS.jpg">
-              <img src="{{ site.url }}/global/img/timeline/ITS.jpg" class="timeline" />
+              <img src="{{ site.url }}/global/img/timeline/ITS.jpg" alt="Post war ITS document on the whereabouts of Jack Tramiel" class="timeline" />
           </a>
           <div class="caption">
               <h5>ITS Document</h5>
@@ -79,13 +79,14 @@ title: Partners and Timeline
       <h4>Litzmannstadt Ghetto <small>1939-1944</small></h4>
       <p>Jack Tramiel's life immediately become administered by the occupying Nazi administration.</p>
       <ul>
-        <li>Jack is put to work at Łagiewnicka 36, Lodz, Poland as a tailor</li>
+        <li>Jack is put to work at Łagiewnicka 36, Łódź
+        , Poland as a tailor</li>
         <li>Helen Goldgrub, Jack's future wife whom moved to Łódź in 1933, works at Łagiewnicka 37, Łódź, Poland</li>
       </ul>
 
       <div class="thumbnail center-block">
           <a href="{{ site.url }}/global/img/timeline/36-lagiewnicka.jpg">
-              <img src="{{ site.url }}/global/img/timeline/36-lagiewnicka.jpg" class="timeline" />
+              <img src="{{ site.url }}/global/img/timeline/36-lagiewnicka.jpg" alt="Jack Tramiel's assigned workplace in the Litzmannstadt Ghetto." class="timeline" />
           </a>
           <div class="caption">
               <h5>Łagiewnicka 36, Łódź, Poland</h5>

@@ -5,7 +5,7 @@ title: An Interactive Documentary
 
 <div class="container" itemscope itemtype="http://schema.org/Movie">
 
-    <section id="frontPage" class="contentPage_row mainContent">
+    <section id="frontPage" class="contentPage_row">
         <div id="genericContainer_col">
 	    <div id="titleContainer">
 	        <div id="logoContainer">
@@ -36,7 +36,7 @@ title: An Interactive Documentary
             </h3>
             <h4 class="accordionHeaderStatic"><em>The Computer Revolution Has Yet to Happen.</em></h4>
             <div>
-                <img src="{{ site.url }}/global/img/essays/revolution/kayjobs.jpg" class="img-responsive" />
+                <img src="{{ site.url }}/global/img/essays/revolution/kayjobs.jpg" alt="Image of Alan Kay and his Dynabook and Steve Jobs and his iPad" class="img-responsive" />
                 <p>Our latest effort, <a href="https://medium.com/@dschmudde/the-computer-revolution-has-yet-to-happen-f1dbf983d477#.4x8inir0o">The Computer Revolution Has Yet to Happen</a>, takes a prediction made by computer scientist Alan Kay in 1972, and examines what ad blocking on Apple's iOS devices has to do with the state of computing and interaction design.</p>
             </div>
         </div>

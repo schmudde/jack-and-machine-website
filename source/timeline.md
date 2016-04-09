@@ -3,7 +3,6 @@ layout: default
 title: Timeline - The War Years
 ---
 <div class="timeline_container">
-    <div class="mainContent">
 	    <div id="titleContainer">
 		    <div id="logoContainer">
 	            <img src="{{ site.url }}/global/img/Bee_small.png" />
@@ -21,5 +20,4 @@ title: Timeline - The War Years
         <p>Jack Tramiel entered the world just as the power of automated information processing became widely understood. Punch card machines made the administration of ambitious centrally-administered social programs possible.</p>
         <p>In the United States, they were used for programs such as Social Security. In Nazi Germany, these same machines would be used for more nefarious purposes.</p>
 
-    </div> <!-- /mainContent -->
 </div>

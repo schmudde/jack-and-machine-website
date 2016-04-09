@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Machine Personalities
+title: The Comptuer Revolution Has Yet to Happen
 ---
 
 <div class="container" itemscope itemtype="http://schema.org/Article">
@@ -20,7 +20,7 @@ title: Machine Personalities
                 <div class="clearfix"></div>
 
                 <article itemprop="articleBody">
-                    <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-width="100%" data-border="true" data-collapsed="false" href="https://medium.com/@dschmudde/a-brief-history-of-machine-personalities-f7116c85c2ed">A Brief History of Machine Personalities</a>
+                    <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-width="100%" data-border="true" data-collapsed="false" href="https://medium.com/@dschmudde/the-computer-revolution-has-yet-to-happen-f1dbf983d477">The Computer Revolution Has Yet to Happen</a>
                 </article>
 
             </div>

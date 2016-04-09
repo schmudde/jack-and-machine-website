@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Restricted Preview
+title: Restricted Excerpt
 ---
 <div class="container" itemscope itemtype="http://schema.org/Movie">
     <section id="frontPage" class="contentPage_row mainContent">

@@ -45,6 +45,15 @@ p {
     }
 }
 
+ .thumbnail {
+
+    max-width: @timeline-max-width + 16px;
+
+    img.timeline {
+        max-width: @timeline-max-width;
+    }
+}
+
 .associatedContent {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -133,6 +142,10 @@ p {
         padding-right: 20px;
     }
 
+}
+
+.partners {
+    padding: 10px 0 25px 0;
 }
 
 // associatedContent specific IDs -
@@ -340,4 +353,25 @@ a:active, a:active, a:focus {
 
 .fa-caret-down, .fa-caret-right {
     padding-right: 10px;
+}
+
+/* Centering Content */
+
+.partner {
+  max-width: 200px;
+  padding: 10px;
+  }
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centering {
+  float:none;
+  margin:0 auto;
 }

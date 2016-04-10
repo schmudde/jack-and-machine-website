@@ -19,7 +19,7 @@ var screen_lg_min = 1200;
 
     $(document).on("ready", contentHeightResizer);
     $(window).on("resize", contentHeightResizer);
-    
+
 })();
 
 
@@ -59,10 +59,10 @@ $('.popupShare').click(function (event) {
         $("#aboutMachine").accordion({
             icons: icons,
             heightStyle: "content"
-        });        
+        });
 
-        $("#aboutUs").accordion({
-            icons: icons,
-            heightStyle: "content"
-        });         
+        // $("#aboutUs").accordion({
+        //     icons: icons,
+        //     heightStyle: "content"
+        // });
     });

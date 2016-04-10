@@ -32,36 +32,38 @@ title: An Interactive Documentary
 
         <div class="associatedContent" id="machine">
             <h3 class="associatedContentHeader">The Latest
-              <time class="small">1 December 2015</time>
+              <time class="small">25 May 2016</time>
             </h3>
-            <h4 class="accordionHeaderStatic"><em>The Computer Revolution Has Yet to Happen.</em></h4>
+            <h4 class="mainHeader">Our Lives, Encoded<hr /></h4>
             <div>
-                <img src="{{ site.url }}/global/img/essays/revolution/kayjobs.jpg" alt="Image of Alan Kay and his Dynabook and Steve Jobs and his iPad" class="img-responsive" />
-                <p>Our latest effort, <a href="https://medium.com/@dschmudde/the-computer-revolution-has-yet-to-happen-f1dbf983d477#.4x8inir0o">The Computer Revolution Has Yet to Happen</a>, takes a prediction made by computer scientist Alan Kay in 1972, and examines what ad blocking on Apple's iOS devices has to do with the state of computing and interaction design.</p>
+                <img src="{{ site.url }}/global/img/essays/encoded/bt1.jpg" alt="Image of 3 1/2&quot; diskettes" class="img-responsive" />
+                <p>Our latest effort, <a href="http://brokentoilets.org/article/year-twenty-megabytes/" target="_blank"><em>Our Lives, Encoded</em></a>, explores the trappings of living in the ephemeral world of data and machine communication.</p>
+                <p><strong>Published by <em>Broken Toilets</em></strong>, co-authored by D. Schm&uuml;dde and Alexander Rakoczy.</p>
             </div>
         </div>
 
 	    <div class="clearfix"></div>
 
         <div class="associatedContent" id="us">
-            <h3 class="associatedContentHeader">More About the Production</h3>
-	        <div id="aboutUs">
-  		    <h4 class="accordionHeader">Early Buzz<hr /></h4>
+          <h3 class="associatedContentHeader">More About <em>Jack and the Machine</em></h3>
+	      <div id="aboutUs">
+  		    <h4 class="mainHeader">The Experience<hr /></h4>
+		    <div><img src="{{ site.url }}/global/img/essays/revolution/attackofthemutantcamels.gif" class="img-responsive" />
+              <p><em>Jack and the Machine</em> is a story idiosyncratic to the digital age, poised for a new kind of audience interaction and distribution. This fascinating story will be told where the consumer lives, on the consumer’s terms.</p>
+              <p>The project already includes <a href="http://www.jackandthemachine.com/the-machine/">essays</a>, <a href="http://www.jackandthemachine.com/the-machine/">talks</a>, and <a href="http://www.jackandthemachine.com/timeline/">interactive content</a>. It will soon be expanded to include tablet-based experiences, animations, and documentary content.</p>
+              <p>Sign up to our mailing list below and keep up with what we're making!</p>
+            </div>
+  		    <h4 class="mainHeader">Social Activism<hr /></h4>
+		    <div><img src="{{ site.url }}/global/img/talks/harvest/hackers-at-play.jpg" class="img-responsive" />
+		    <p>Jack Tramiel’s dramatic life story is interwoven with the growth of information technology, culminating with his remarkable creation of the mass market personal computer. <em>Jack and the Machine</em> will demonstrate the personal computer’s impact on contemporary issues such as <strong>corporate and government data collection</strong> and the protection of <strong>whistleblowers and hackers</strong>. Using the past, the experience will provide context for the difficult decisions surrounding today’s most controversial digital issues.</p>
+            </div>
+  		    <h4 class="mainHeader">Early Buzz<hr /></h4>
 		    <div>
-		        <p><strong><a href="http://www.medienboard.de/WebObjects/Medienboard.woa/wa/CMSshow/3260603" target="_blank">Media Residency Program</a></strong>, Berlin (3 month incubation) • <strong>Tribeca Film Institute</strong>, NYC (selected hackathon partici- pant) • <strong><a href="http://pechakucha.de/berlin/player/?event=PK_39_1&position=03&presenter=D.%20Schm%C3%BCdde&presentation=Computers%20&%20Intimacy%20%E2%80%93%20The%20Story%20of%20the%20Largest%20Machines%20and%20the%20Smallest%20Details" target="_blank">PechaKucha</a></strong>, Berlin (presentation) • <strong>Internet Society</strong>, NYC (presentation) • <strong><a href="http://motherboard.vice.com/read/this-documentary-explores-the-life-of-commodore-creator-jack-tramiel" target="_blank">Motherboard</a></strong>, London (interview) • <strong><a href="https://www.youtube.com/watch?v=CKMpTXchv9I" target="_blank">C-Base</a></strong>, Berlin (presentation)</p>
+              <p><em>Jack and the Machine</em> has seen early success. The team behind the experience has already made amazing friends and formed valuable partnerships:</p>
+		      <p><strong><a href="http://www.medienboard.de/WebObjects/Medienboard.woa/wa/CMSshow/3260603" target="_blank">Media Residency Program</a></strong>, Berlin (3 month incubation) • <a href="http://brokentoilets.org/article/year-twenty-megabytes/" target="_blank">Broken Toilets</a> (publisher) • <strong>Tribeca Film Institute</strong>, NYC (selected hackathon participant) • <strong><a href="http://pechakucha.de/berlin/player/?event=PK_39_1&position=03&presenter=D.%20Schm%C3%BCdde&presentation=Computers%20&%20Intimacy%20%E2%80%93%20The%20Story%20of%20the%20Largest%20Machines%20and%20the%20Smallest%20Details" target="_blank">PechaKucha</a></strong>, Berlin (presentation) • <strong>Internet Society</strong>, NYC (presentation) • <strong><a href="http://motherboard.vice.com/read/this-documentary-explores-the-life-of-commodore-creator-jack-tramiel" target="_blank">Motherboard</a></strong>, London (interview) • <strong><a href="https://medium.com/endless/the-computer-revolution-has-yet-to-happen-f1dbf983d477" target="_target">The Absurdist/Endless</a></strong> (publisher) • <strong><a href="https://www.youtube.com/watch?v=CKMpTXchv9I" target="_blank">C-Base</a></strong>, Berlin (presentation)</p>
 		    </div>
-		    <h4 class="accordionHeader">The Contributors</h4>
-		    <div>
-		        <p><strong>Director: D. Schm&uuml;dde</strong>, Beyond the Frame</p>
-                        <p>D. Schm&uuml;dde is a film director and computer scientist who has been building experiences and creating stories for broad audiences for the last 15 years. His work has been broadcast on traditional outlets such as the <strong>Dish Network</strong>, <strong>AT&T U-Verse</strong>, and <strong>Direct TV</strong>, screened at legendary venues like the <strong>Chinese Theater in Los Angeles</strong>, and performed in stalwart institutions such as the <strong>Chicago Museum of Contemporary Art</strong> and the <strong>Schusev State Museum of Architecture in Moscow</strong>. His work encourages viewers to participate while maintaining aesthetic principles and a personal vulnerability that fuels powerful works of art.</p>
-		        <p><strong>Executive Producer: Karol Martesko-Fenster</strong>, Thought Engine | Media Group</p>
-                        <p>Karol Martesko-Fenster is an Austrian-born American entrepreneur and media industry innovator with broad motion picture, broadcast, print, and Internet backgrounds and his career spans over two decades including leadership in the American independent film industry. Karol has provided strategic consulting services to numerous film and media ventures, produced multiple award winning feature films and over 20 music television and satellite programs. He co-founded <strong>FILMMAKER Magazine</strong> and <strong>RES Magazine</strong> and the media content enterprises <strong>cinelan.com</strong>, <strong>indiewire.com</strong>, and <strong>conditionone.com</strong>. Currently Managing Partner of <strong>Cinelan</strong> and <strong>Thought Engine</strong>, he was previously President of Film for Michael Cohl’s <strong>S2BN Entertainment</strong>, SVP&GM of Film & Animation at <strong>Babel Networks</strong>, Head of Film at Chris Blackwell's <strong>Palm Pictures</strong>, President of <strong>RES Media Group</strong> and President/Publisher of <strong>Silicon Alley Reporter</strong>.</p>
-		            <p><strong>Producer: Kathryn Henderson</strong>, Beyond the Frame</p>
-		            <p>Kathryn Henderson is a producer & line producer living in Brooklyn, NY. Over the past 10 years, she’s worked as a producer at in-house agencies, production, and post production companies for clients including <strong>Adult Swim</strong>, <strong>Harley-Davidson</strong>, <strong>Procter &amp; Gamble</strong>, <strong>GE</strong>, <strong>Google</strong>, and agencies such as <strong>Leo Burnett</strong>, <strong>DDB</strong>, <strong>BBDO</strong>, <strong>JWT</strong>, and <strong>VSA Partners</strong>.</p>
-		            <p>Kathryn simultaneously maintains her independent career producing and line producing both films and documentaries. This has given her an unusual position in an ever-changing industry where film, video, and art are merging in the digital world. Fresh, creative approaches are needed: whether it’s animation (2D or 3D), live action narrative, or documentary, Kathryn is comfortable building and managing the right teams.</p>
- 		        </div>
-                    </div>
-                </div> <!-- /Associated Content -->
+          </div> <!-- aboutUs -->
+        </div> <!-- /Associated Content -->
 
         </div>
     </section>

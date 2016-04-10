@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jack Tramiel Timeline
+title: The Life and Times of Jack Tramiel
 ---
 <style>
 </style>

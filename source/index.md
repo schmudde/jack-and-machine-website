@@ -48,13 +48,13 @@ title: An Interactive Documentary
           <h3 class="associatedContentHeader">More About <em>Jack and the Machine</em></h3>
 	      <div id="aboutUs">
   		    <h4 class="mainHeader">The Experience<hr /></h4>
-		    <div><img src="{{ site.url }}/global/img/essays/revolution/attackofthemutantcamels.gif" class="img-responsive" />
+		    <div><img src="{{ site.url }}/global/img/essays/revolution/attackofthemutantcamels.gif" />
               <p><em>Jack and the Machine</em> is a story idiosyncratic to the digital age, poised for a new kind of audience interaction and distribution. This fascinating story will be told where the consumer lives, on the consumer’s terms.</p>
               <p>The project already includes <a href="http://www.jackandthemachine.com/the-machine/">essays</a>, <a href="http://www.jackandthemachine.com/the-machine/">talks</a>, and <a href="http://www.jackandthemachine.com/timeline/">interactive content</a>. It will soon be expanded to include tablet-based experiences, animations, and documentary content.</p>
               <p>Sign up to our mailing list below and keep up with what we're making!</p>
             </div>
   		    <h4 class="mainHeader">Social Activism<hr /></h4>
-		    <div><img src="{{ site.url }}/global/img/talks/harvest/hackers-at-play.jpg" class="img-responsive" />
+		    <div><img src="{{ site.url }}/global/img/talks/harvest/hackers-at-play.jpg" />
 		    <p>Jack Tramiel’s dramatic life story is interwoven with the growth of information technology, culminating with his remarkable creation of the mass market personal computer. <em>Jack and the Machine</em> will demonstrate the personal computer’s impact on contemporary issues such as <strong>corporate and government data collection</strong> and the protection of <strong>whistleblowers and hackers</strong>. Using the past, the experience will provide context for the difficult decisions surrounding today’s most controversial digital issues.</p>
             </div>
   		    <h4 class="mainHeader">Early Buzz<hr /></h4>

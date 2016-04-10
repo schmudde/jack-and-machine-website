@@ -55,7 +55,7 @@ title: The Life and Times of Jack Tramiel
       </div>
       <hr />
       <h3>Jack Tramiel: The War Years</h3>
-      <h4>Birth Details</h4>
+      <a name="jack-tramiel-birth"><h4>Birth Details</h4></a>
       <p>Jack Tramiel's birth date and name are both contested on official records. This information is based on the earliest known record of Jack Tramiel, taken by a Nazi bureaucrat during Tramiel's internment in the Litzmannstadt Ghetto.</p>
       <ul>
         <li>Born: 13 December 1928 <small>alternatively 13 December 1927</small></li>
@@ -76,7 +76,7 @@ title: The Life and Times of Jack Tramiel
           </div>
       </div>
 
-      <h4>Litzmannstadt Ghetto <small>1939-1944</small></h4>
+      <a name="jack-tramiel-litzmannstadt"><h4>Litzmannstadt Ghetto <small>1939-1944</small></h4></a>
       <p>Jack Tramiel's life immediately become administered by the occupying Nazi administration.</p>
       <ul>
         <li>Jack is put to work at Łagiewnicka 36, Łódź
@@ -94,7 +94,7 @@ title: The Life and Times of Jack Tramiel
       </div>
 
 
-      <h4>Concentration Camps <small>1944-1945</small></h4>
+      <a name="jack-tramiel-camps"><h4>Concentration Camps<small>1944-1945</small></h4></a>
       <ul>
         <li>August 1944: sent to Auschwitz-Birkenau in Oświęcim, Poland and held for twelve days</li>
         <li>August or September 1944: sent to Neuengamme subcamp Hannover-Stöcken in Germany</li>

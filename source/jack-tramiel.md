@@ -94,7 +94,7 @@ title: The Life and Times of Jack Tramiel
       </div>
 
 
-      <a name="jack-tramiel-camps"><h4>Concentration Camps<small>1944-1945</small></h4></a>
+      <a name="jack-tramiel-camps"><h4>Concentration Camps <small>1944-1945</small></h4></a>
       <ul>
         <li>August 1944: sent to Auschwitz-Birkenau in Oświęcim, Poland and held for twelve days</li>
         <li>August or September 1944: sent to Neuengamme subcamp Hannover-Stöcken in Germany</li>
@@ -104,6 +104,21 @@ title: The Life and Times of Jack Tramiel
             <li>10 April 1945: Ahlem is liberated by Allied troops</li>
         </ul>
       </ul>
+
+      <div class="thumbnail center-block">
+          <a href="{{ site.url }}/global/img/timeline/marine-flasher.jpg">
+              <img src="{{ site.url }}/global/img/timeline/marine-flasher.jpg" alt="Jack Tramiel's immigration log." class="timeline" />
+          </a>
+          <div class="caption">
+              <h5>Ellis Island, New York</h5>
+          </div>
+      </div>
+
+      <a name="jack-tramiel-immigration"><h4>American Immigration <small>November 10, 1947</small></h4></a>
+      <ul>
+        <li>Jack Tramiel emmigrates from Bremen, Germany and enters the United States</li>
+      </ul>
+
     </div>
 
   </section>

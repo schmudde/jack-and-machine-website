@@ -110,13 +110,14 @@ title: The Life and Times of Jack Tramiel
               <img src="{{ site.url }}/global/img/timeline/marine-flasher.jpg" alt="Jack Tramiel's immigration log." class="timeline" />
           </a>
           <div class="caption">
-              <h5>Ellis Island, New York</h5>
+              <h5><em>Marine Flasher</em> Alien Passenger Manifest</h5>
           </div>
       </div>
 
-      <a name="jack-tramiel-immigration"><h4>American Immigration <small>November 10, 1947</small></h4></a>
+      <a name="jack-tramiel-immigration"><h4>American Immigration <small>1947</small></h4></a>
       <ul>
-        <li>Jack Tramiel emmigrates from Bremen, Germany and enters the United States</li>
+        <li>29 October 1947: Jack Tramiel emigrates from Bremen, Germany</li>
+        <li>10 November 1947: Jack Tramiel enters Ellis Island, New York</li>
       </ul>
 
     </div>

@@ -28,8 +28,10 @@
     /* Grab the user's post data */
     $userFormData = $_POST;
 
+
     /* Use the MailChimp PHP wrapper's function to subscribe */
-    $result = $MailChimp->call('lists/subscribe', array(
+    /* David Schmudde commented this out so one executes this PHP script on August 25, 2020 */
+    /* $result = $MailChimp->call('lists/subscribe', array(
                    'id' => '37d2c184d6',
                  'email' => array('email'=>$userFormData["email"]),
                  'merge_vars' => array('FNAME'=>$userFormData["fname"], 'LNAME'=>$userFormData["lname"]),
@@ -37,7 +39,7 @@
                  'update_existing' => true,
                  'replace_interests' => false,
                  'send_welcome' => false,
-                 ));
+                 )); */
 ?>
 
 <div class="container" itemscope itemtype="http://schema.org/Movie">
